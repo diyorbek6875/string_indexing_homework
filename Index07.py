@@ -6,4 +6,13 @@ def main(s,n):
     Returns:
         str: answer
     """
-    return
+    
+    if len(s)==n:
+        a=s[n]
+    else:
+        a=False
+
+    return a
+s=input("")
+n=int(input("sooni kiriting "))
+print(main(s,n))
