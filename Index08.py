@@ -6,5 +6,12 @@ def main(s):
     Returns:
         int: answer
     """
-    return
+    if s.count('*')==0:
+        a=0
+    else:
+        a=s.count("*")
+    return a
+s=input("")
+print(main(s))
+
         
