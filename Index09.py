@@ -6,4 +6,11 @@ def main(s):
     Returns:
         int: answer
     """
-    return
+    if s.isdigit()==False:
+        a=-1
+
+    else:
+        a=int(s)
+    return a
+s=input("")
+print(main(s))
