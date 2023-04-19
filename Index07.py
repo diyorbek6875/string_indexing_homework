@@ -7,8 +7,8 @@ def main(s,n):
         str: answer
     """
     
-    if len(s)==n:
-        a=s[n]
+    if len(s)>=n:
+        a=s[n-1]
     else:
         a=False
 
